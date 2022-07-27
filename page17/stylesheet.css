@@ -74,11 +74,6 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  /* Ubah position ke fixed, dan top ke 0 */
-  position: fixed;
-  top: 0;
-  /* Ubah z-index ke 10 */
-  z-index: 10;
 }
 
 .logo {
@@ -171,15 +166,18 @@ header {
   box-shadow: none;
 }
 
+/* Tambahkan CSS untuk tag <img> yang berada di dalam <footer> */
 footer img {
   width: 125px;
 }
 
+/* Tambahkan CSS untuk tag <p> yang berada di dalam <footer> */
 footer p {
   color: #b3aeb5;
   font-size: 12px;
 }
 
+/* Tambahkan CSS untuk tag <footer> */
 footer {
   padding-top: 30px;
 }
